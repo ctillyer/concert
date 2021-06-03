@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Contact - X-Shop</title>
+    <title>Contact Us - X-Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="shortcut icon" href='assets/images/favicon.png' />
     <link rel='stylesheet' type='text/css' href='assets/css/bootstrap.min.css'>
@@ -21,15 +21,15 @@
     <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700|Great+Vibes|Montserrat:400,700|Open+Sans:400,400i,600,600i,700,800i" rel="stylesheet">
 </head>
 <body>
-	  <header class="header header-basic header-style_16 header-sticky menu-no-transparent">
+      <header class="header header-basic header-style_16 header-sticky menu-no-transparent">
               <div class="container">
                   <nav id="primary-navigation" class="site-navigation">
                       <div id="main-menu" class="main-nav main-menu">
                           <ul class="menu-nav">
                               <li class="menu-item menu-item-has-children megamenu-menu-item active">
-                              <li class="menu-item"><a href="home.html">Home</a></li>
-                              <li class="menu-item"><a href="about-us.html">About us</a></li>
-                              <li class="menu-item"><a href="login.html">Login</a></li><br>
+                              <li class="menu-item"><a href="index.php">Home</a></li>
+                              <li class="menu-item"><a href="about-us.php">About us</a></li>
+                              <li class="menu-item"><a href="login.php">Login</a></li><br>
                               </li>
                           </ul>
                       </div>
@@ -121,18 +121,17 @@
                                         <div class="col-sm-6">
                                             <h5 class="title-contact-info">write to us</h5>
                                             <div class="contact-form ">
-											
 
-                                                <form  action="insert.php" method="post">
+                                                <form class="form-contact" action="#" method="post">
                                                     <div class="row">
                                                         <div class="col-sm-6 col-xs-12">
                                                             <p>
-                                                                <input type="text" placeholder="First Name"  class="input-control first-name" value="" name="user_first_name">
+                                                                <input type="text" placeholder="First Name"  class="input-control first-name" value="" name="first-name">
                                                             </p>
                                                         </div>
                                                         <div class="col-sm-6 col-xs-12">
                                                             <p>
-                                                                <input type="text" placeholder="Second Name"  class="input-control second-name"  value="" name="user_second_name">
+                                                                <input type="text" placeholder="Second Name"  class="input-control second-name"  value="" name="second-name">
                                                             </p>
                                                         </div>
                                                         <div class="col-sm-12 col-md-12">
@@ -142,7 +141,7 @@
                                                         </div>
                                                         <div class="col-sm-12 col-md-12">
                                                             <p>
-                                                                <input type="submit" class="button-duck" name="submit" value="submit">
+                                                                <input type="submit" class="button-duck" value="Send Message">
                                                             </p>
                                                         </div>
                                                     </div>
